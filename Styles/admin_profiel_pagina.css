@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background: #3A92D5;
+    background: -webkit-linear-gradient(to right, #3A92D5, #00D2FF);
+    background: linear-gradient(to right, #3A92D5, #00D2FF);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 2rem;
+    height: 60vh;
+    width: 70vw;
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.col1 {
+    flex: 1;
+    margin-left: 5rem;
+}
+
+.col2 {
+    margin-right: 5rem;
+}
+
+p {
+    background-color: #DFDFDF;
+    width: 15vw;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+.back-bttn {
+    color: #000;
+    text-decoration: none;
+    position: fixed;
+    left: 11.5rem;
+    top: 6.5rem;
+    font-size: 1.5rem;
+}
+
+.bewerk-profiel-bttn {
+    border: none;
+    background-color: #3A92D5;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+}
